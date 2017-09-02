@@ -197,7 +197,7 @@ body {
   position: relative;
   background: #ffffff;
   height: 750px;
-  width: 1305px;
+  width: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
