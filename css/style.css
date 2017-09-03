@@ -370,46 +370,48 @@ body {
 
 /* line 303, ../../scss/style.scss */
 .section-title {
+  display: inline-block;
   font-size: 48px;
-  font-weight: 100;
   color: #384656;
+  font-weight: 300;
+  line-height: 48px;
 }
 
-/* line 308, ../../scss/style.scss */
+/* line 310, ../../scss/style.scss */
 .business-section {
   background: #f0f3f5;
   padding-bottom: 140px;
 }
 
-/* line 312, ../../scss/style.scss */
+/* line 314, ../../scss/style.scss */
 .business-header {
   margin-top: 120px;
   margin-bottom: 55px;
   max-width: 400px;
 }
 
-/* line 317, ../../scss/style.scss */
+/* line 319, ../../scss/style.scss */
 .col-lg-7.col-md-12.no-mrg {
   padding-left: 0px;
 }
 
-/* line 320, ../../scss/style.scss */
+/* line 322, ../../scss/style.scss */
 .business-list {
   margin-bottom: 20px;
 }
-/* line 322, ../../scss/style.scss */
+/* line 324, ../../scss/style.scss */
 .business-list ul {
   overflow: hidden;
   list-style: none;
 }
-/* line 326, ../../scss/style.scss */
+/* line 328, ../../scss/style.scss */
 .business-list li {
   display: inline-block;
   width: 40%;
   float: left;
 }
 
-/* line 332, ../../scss/style.scss */
+/* line 334, ../../scss/style.scss */
 .business-list-items {
   display: block;
   padding: 20px 0 30px 0;
@@ -420,43 +422,44 @@ body {
   line-height: 1.3;
 }
 
-/* line 341, ../../scss/style.scss */
+/* line 343, ../../scss/style.scss */
 .mrg-rght {
   margin-right: 90px;
 }
 
-/* line 344, ../../scss/style.scss */
+/* line 346, ../../scss/style.scss */
 .btn-primary {
-  width: 170px;
-  padding: 12px 24px 11px;
-  background: #e1e6f6;
-  border-radius: 23px;
-  font-size: 18px;
+  width: 213px;
+  padding: 12px 24px 12px;
+  background: #f2f4ff;
+  border-radius: 27px;
+  font-size: 13px;
   font-weight: 400;
   color: #5978ff;
   letter-spacing: 1px;
   vertical-align: sub;
+  text-shadow: none;
 }
 
-/* line 355, ../../scss/style.scss */
+/* line 358, ../../scss/style.scss */
 .col-xs-offset-1 {
   margin-left: 8.33%;
 }
 
-/* line 358, ../../scss/style.scss */
+/* line 361, ../../scss/style.scss */
 .col-xs-4 {
   width: 33.33%;
   float: left;
 }
 
-/* line 362, ../../scss/style.scss */
+/* line 365, ../../scss/style.scss */
 .business-cards {
   position: absolute;
   top: -165px;
   height: 660px;
   width: 330px;
 }
-/* line 367, ../../scss/style.scss */
+/* line 370, ../../scss/style.scss */
 .business-cards .business-card-item {
   position: absolute;
   top: 0;
@@ -469,7 +472,7 @@ body {
   transition-duration: 300ms;
   transition-timing-function: ease-out;
 }
-/* line 378, ../../scss/style.scss */
+/* line 381, ../../scss/style.scss */
 .business-cards .business-card-item p {
   font-size: 45px;
   color: #adf5fa;
@@ -478,57 +481,57 @@ body {
   right: 180px;
   transform: rotate(-45deg);
 }
-/* line 387, ../../scss/style.scss */
+/* line 390, ../../scss/style.scss */
 .business-cards .card-item-1 {
   z-index: 10;
 }
-/* line 390, ../../scss/style.scss */
+/* line 393, ../../scss/style.scss */
 .business-cards .card-item-2 {
   top: 50px;
   z-index: 9;
 }
-/* line 394, ../../scss/style.scss */
+/* line 397, ../../scss/style.scss */
 .business-cards .card-item-3 {
   top: 100px;
   z-index: 8;
 }
-/* line 398, ../../scss/style.scss */
+/* line 401, ../../scss/style.scss */
 .business-cards .card-item-4 {
   top: 150px;
   z-index: 7;
 }
-/* line 402, ../../scss/style.scss */
+/* line 405, ../../scss/style.scss */
 .business-cards .card-item-5 {
   top: 200px;
   z-index: 6;
 }
-/* line 406, ../../scss/style.scss */
+/* line 409, ../../scss/style.scss */
 .business-cards .card-item-6 {
   top: 250px;
   z-index: 5;
 }
-/* line 410, ../../scss/style.scss */
+/* line 413, ../../scss/style.scss */
 .business-cards .card-item-7 {
   top: 300px;
   z-index: 4;
 }
-/* line 414, ../../scss/style.scss */
+/* line 417, ../../scss/style.scss */
 .business-cards .card-item-8 {
   top: 330px;
   z-index: 3;
 }
-/* line 418, ../../scss/style.scss */
+/* line 421, ../../scss/style.scss */
 .business-cards img {
   vertical-align: middle;
 }
 
-/* line 422, ../../scss/style.scss */
+/* line 425, ../../scss/style.scss */
 .mrgn-top {
   transform: translateY(-75px) !important;
   opacity: .2 !important;
 }
 
-/* line 427, ../../scss/style.scss */
+/* line 430, ../../scss/style.scss */
 .nav-header-fixed {
   position: fixed;
   right: 0;
@@ -540,7 +543,7 @@ body {
   border-bottom: 1px solid #ccc;
 }
 
-/* line 437, ../../scss/style.scss */
+/* line 440, ../../scss/style.scss */
 .next {
   display: inline-block;
   font: normal normal normal 20px/1 FontAwesome;
@@ -549,7 +552,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 444, ../../scss/style.scss */
+/* line 447, ../../scss/style.scss */
 .next:after {
   content: "\f054";
   display: block;
@@ -557,7 +560,7 @@ body {
   color: #fff;
 }
 
-/* line 451, ../../scss/style.scss */
+/* line 454, ../../scss/style.scss */
 .prev {
   display: inline-block;
   font: normal normal normal 20px/1 FontAwesome;
@@ -566,7 +569,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-/* line 458, ../../scss/style.scss */
+/* line 461, ../../scss/style.scss */
 .prev:after {
   content: "\f054";
   display: block;
@@ -575,7 +578,7 @@ body {
   color: #fff;
 }
 
-/* line 466, ../../scss/style.scss */
+/* line 469, ../../scss/style.scss */
 .icon-close {
   position: absolute;
   top: 46px;
@@ -588,7 +591,7 @@ body {
   cursor: pointer;
   margin-left: auto;
 }
-/* line 477, ../../scss/style.scss */
+/* line 480, ../../scss/style.scss */
 .icon-close:after {
   content: ' ';
   display: block;
@@ -598,7 +601,7 @@ body {
   background-position: center;
 }
 
-/* line 486, ../../scss/style.scss */
+/* line 489, ../../scss/style.scss */
 .menu-mb {
   display: block !important;
   width: 240px;
@@ -611,7 +614,7 @@ body {
 }
 
 @media all and (min-width: 320px) and (max-width: 1170px) {
-  /* line 498, ../../scss/style.scss */
+  /* line 501, ../../scss/style.scss */
   .icon-show-menu {
     display: block;
     width: 36px;
@@ -621,7 +624,7 @@ body {
     background-color: rgba(89, 120, 255, 0.17);
     cursor: pointer;
   }
-  /* line 506, ../../scss/style.scss */
+  /* line 509, ../../scss/style.scss */
   .icon-show-menu:before {
     content: '';
     display: block;
@@ -632,40 +635,40 @@ body {
     background-position: center;
   }
 
-  /* line 516, ../../scss/style.scss */
+  /* line 519, ../../scss/style.scss */
   .next {
     display: none;
   }
 
-  /* line 519, ../../scss/style.scss */
+  /* line 522, ../../scss/style.scss */
   .prev {
     display: none;
   }
 
-  /* line 522, ../../scss/style.scss */
+  /* line 525, ../../scss/style.scss */
   .nav-toolbar-container {
     display: none;
   }
 
-  /* line 525, ../../scss/style.scss */
+  /* line 528, ../../scss/style.scss */
   .nav-menu {
     padding-top: 107px;
     padding-left: 30px;
   }
 
-  /* line 529, ../../scss/style.scss */
+  /* line 532, ../../scss/style.scss */
   .nav-lang {
     display: block;
     list-style: none;
   }
 
-  /* line 533, ../../scss/style.scss */
+  /* line 536, ../../scss/style.scss */
   .nav-item {
     display: block;
     list-style: none;
   }
 
-  /* line 537, ../../scss/style.scss */
+  /* line 540, ../../scss/style.scss */
   .lang {
     padding-left: 30px;
     width: 100%;
@@ -674,35 +677,142 @@ body {
     padding-bottom: 108px;
   }
 
-  /* line 545, ../../scss/style.scss */
+  /* line 548, ../../scss/style.scss */
   .nav-toolbar {
     display: block;
     margin: 0 auto;
     width: 196px;
   }
 
-  /* line 550, ../../scss/style.scss */
+  /* line 553, ../../scss/style.scss */
   .header-toolbar-group {
     margin: 33px 25px;
     width: 190px;
     text-align: center;
   }
 
-  /* line 555, ../../scss/style.scss */
+  /* line 558, ../../scss/style.scss */
   .active {
     top: 26px;
     left: 60px;
   }
 
-  /* line 559, ../../scss/style.scss */
+  /* line 562, ../../scss/style.scss */
   .getStartedblock {
     margin: 0 25px;
     width: 190px;
     text-align: center;
   }
 
-  /* line 564, ../../scss/style.scss */
+  /* line 567, ../../scss/style.scss */
   .icon-close {
     display: block;
   }
+}
+/* line 571, ../../scss/style.scss */
+.news-section {
+  background: #fff;
+}
+
+/* line 574, ../../scss/style.scss */
+.news-header {
+  margin-top: 139px;
+  margin-bottom: 60px;
+  overflow: hidden;
+}
+
+/* line 579, ../../scss/style.scss */
+.arrow-right {
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: text-bottom;
+}
+
+/* line 584, ../../scss/style.scss */
+.section-news-btn {
+  margin-top: 30px;
+}
+
+/* line 587, ../../scss/style.scss */
+.list-major {
+  background: #f0f3f5;
+  margin-right: 40px;
+}
+/* line 590, ../../scss/style.scss */
+.list-major a {
+  display: block;
+}
+
+/* line 594, ../../scss/style.scss */
+.img-container {
+  height: 315px;
+  display: block;
+  overflow: hidden;
+}
+/* line 598, ../../scss/style.scss */
+.img-container img {
+  height: 100%;
+}
+
+/* line 602, ../../scss/style.scss */
+.news-description {
+  padding: 0px 70px 35px 30px;
+}
+
+/* line 606, ../../scss/style.scss */
+.gray-letter .news-title {
+  font-size: 20px;
+  color: #384656;
+  line-height: 1.5;
+}
+/* line 611, ../../scss/style.scss */
+.gray-letter p {
+  font-size: 14px;
+  color: #97a3b4;
+  line-height: 1.5;
+}
+/* line 616, ../../scss/style.scss */
+.gray-letter span {
+  font-size: 14px;
+  color: #97a3b4;
+}
+
+/* line 621, ../../scss/style.scss */
+.news-box-image {
+  display: inline-block;
+  width: 120px;
+  vertical-align: text-bottom;
+  height: 90px;
+}
+
+/* line 627, ../../scss/style.scss */
+.news-box-description {
+  display: inline-block;
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-top: -15px;
+  vertical-align: top;
+}
+/* line 633, ../../scss/style.scss */
+.news-box-description h3 {
+  font-size: 16px;
+  padding-top: 10px;
+  color: #384656;
+}
+/* line 638, ../../scss/style.scss */
+.news-box-description p {
+  font-size: 14px;
+  color: #97a3b4;
+}
+
+/* line 643, ../../scss/style.scss */
+.list-item {
+  padding-bottom: 25px;
+  padding-top: 25px;
+  border-top: 1px solid #dde2e6;
+}
+/* line 644, ../../scss/style.scss */
+.list-item:first-child {
+  padding-top: 0;
+  border: none;
 }
