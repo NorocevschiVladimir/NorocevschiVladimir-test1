@@ -712,72 +712,73 @@ body {
 /* line 571, ../../scss/style.scss */
 .news-section {
   background: #fff;
+  margin-bottom: 150px;
 }
 
-/* line 574, ../../scss/style.scss */
+/* line 575, ../../scss/style.scss */
 .news-header {
   margin-top: 139px;
   margin-bottom: 60px;
   overflow: hidden;
 }
 
-/* line 579, ../../scss/style.scss */
+/* line 580, ../../scss/style.scss */
 .arrow-right {
   display: inline-block;
   margin-left: 20px;
   vertical-align: text-bottom;
 }
 
-/* line 584, ../../scss/style.scss */
+/* line 585, ../../scss/style.scss */
 .section-news-btn {
   margin-top: 30px;
 }
 
-/* line 587, ../../scss/style.scss */
+/* line 588, ../../scss/style.scss */
 .list-major {
   background: #f0f3f5;
   margin-right: 40px;
 }
-/* line 590, ../../scss/style.scss */
+/* line 591, ../../scss/style.scss */
 .list-major a {
   display: block;
 }
 
-/* line 594, ../../scss/style.scss */
+/* line 595, ../../scss/style.scss */
 .img-container {
   height: 315px;
   display: block;
   overflow: hidden;
 }
-/* line 598, ../../scss/style.scss */
+/* line 599, ../../scss/style.scss */
 .img-container img {
   height: 100%;
 }
 
-/* line 602, ../../scss/style.scss */
+/* line 603, ../../scss/style.scss */
 .news-description {
   padding: 0px 70px 35px 30px;
 }
 
-/* line 606, ../../scss/style.scss */
+/* line 607, ../../scss/style.scss */
 .gray-letter .news-title {
   font-size: 20px;
   color: #384656;
   line-height: 1.5;
 }
-/* line 611, ../../scss/style.scss */
+/* line 612, ../../scss/style.scss */
 .gray-letter p {
   font-size: 14px;
   color: #97a3b4;
   line-height: 1.5;
 }
-/* line 616, ../../scss/style.scss */
+/* line 617, ../../scss/style.scss */
 .gray-letter span {
   font-size: 14px;
   color: #97a3b4;
 }
 
-/* line 621, ../../scss/style.scss */
+/* line 622, ../../scss/style.scss */
 .news-box-image {
   display: inline-block;
   width: 120px;
@@ -785,7 +786,7 @@ body {
   height: 90px;
 }
 
-/* line 627, ../../scss/style.scss */
+/* line 628, ../../scss/style.scss */
 .news-box-description {
   display: inline-block;
   padding-left: 20px;
@@ -793,26 +794,107 @@ body {
   margin-top: -15px;
   vertical-align: top;
 }
-/* line 633, ../../scss/style.scss */
+/* line 634, ../../scss/style.scss */
 .news-box-description h3 {
   font-size: 16px;
   padding-top: 10px;
   color: #384656;
 }
-/* line 638, ../../scss/style.scss */
+/* line 639, ../../scss/style.scss */
 .news-box-description p {
   font-size: 14px;
   color: #97a3b4;
 }
 
-/* line 643, ../../scss/style.scss */
+/* line 644, ../../scss/style.scss */
 .list-item {
   padding-bottom: 25px;
   padding-top: 25px;
   border-top: 1px solid #dde2e6;
 }
-/* line 644, ../../scss/style.scss */
+/* line 645, ../../scss/style.scss */
 .list-item:first-child {
   padding-top: 0;
   border: none;
+}
+
+/* line 653, ../../scss/style.scss */
+.footer-list-label {
+  border-top: 1px solid #ebeef0;
+  text-align: center;
+}
+
+/* line 657, ../../scss/style.scss */
+.footer-toolbar {
+  background: #f0f3f5;
+}
+
+/* line 660, ../../scss/style.scss */
+.footer-description {
+  background: #f0f3f5;
+  padding-bottom: 20px;
+}
+
+/* line 664, ../../scss/style.scss */
+.footer-label-items {
+  max-width: 720px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 35px 0px;
+}
+
+/* line 671, ../../scss/style.scss */
+.footer-toolbar-nav {
+  display: inline-block;
+}
+
+/* line 674, ../../scss/style.scss */
+.footer-nav {
+  user-select: none;
+  list-style: none;
+}
+
+/* line 682, ../../scss/style.scss */
+.footer-nav li:first-child a {
+  padding-left: 0px;
+}
+/* line 685, ../../scss/style.scss */
+.footer-nav li {
+  display: inline-block;
+}
+/* line 688, ../../scss/style.scss */
+.footer-nav a {
+  display: block;
+  padding: 40px 18px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #384656;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* line 698, ../../scss/style.scss */
+.description {
+  text-align: left;
+  width: 79%;
+  font-size: 13px;
+  color: #97a3b4;
+  letter-spacing: 1px;
+  line-height: 1.8;
+  opacity: 0.5;
+}
+
+/* line 707, ../../scss/style.scss */
+.copyright {
+  float: left;
+  font-size: 13px;
+  color: #97a3b4;
+  display: inline-block;
+}
+
+/* line 713, ../../scss/style.scss */
+.footer-logo {
+  display: inline-block;
+  float: right;
 }
